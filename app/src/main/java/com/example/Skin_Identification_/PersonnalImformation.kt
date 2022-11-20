@@ -1,10 +1,12 @@
 package com.example.Skin_Identification_
 
 import android.content.ActivityNotFoundException
+import android.content.ContentValues
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.view.View
 import android.widget.ImageButton
 import android.widget.ImageView
@@ -12,6 +14,7 @@ import android.widget.Switch
 import android.widget.TextView
 import android.widget.Toast
 import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.ktx.firestore
 import com.google.firebase.ktx.Firebase
 import com.squareup.picasso.Picasso
 
@@ -23,16 +26,37 @@ class PersonnalImformation : AppCompatActivity() {
 
         setContentView(R.layout.personnal_imformation)
 
+        val db = Firebase.firestore
+
         val head_stickers = findViewById<ImageView>(R.id.imformation_imageView02)
         val user_name = findViewById<TextView>(R.id.user_textView)
+        val textView_sex = findViewById<TextView>(R.id.textView_sex_attribute)
+        val textView_weight = findViewById<TextView>(R.id.textView_weight_attribute)
+        val textView_height = findViewById<TextView>(R.id.textView_height_attribute)
+        val textView_born = findViewById<TextView>(R.id.textView_born_attribute)
 
-            val user = Firebase.auth.currentUser
+        db.collection("users")
+            .whereEqualTo("docid","s1JRKbWsMxRLpj02ANMCgLC78Vh1")
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                    Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
+//                          personnel_information = document.data.toString()
+                    findViewById<TextView>(R.id.textView_sex_attribute).text = document.data["sex"].toString()
+                    findViewById<TextView>(R.id.textView_weight_attribute).text = document.data["weight"].toString()
+                    findViewById<TextView>(R.id.textView_height_attribute).text = document.data["height"].toString()
+                    findViewById<TextView>(R.id.textView_born_attribute).text = document.data["born"].toString()
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.w(ContentValues.TAG, "Error getting documents.", exception)
+            }
+
+        val user = Firebase.auth.currentUser
 
         user?.let {
-
             val photoUrl = user.photoUrl
             val name = user.displayName
-
             user_name.text = name
             Picasso.with(this).load(photoUrl).resize(164,153).into(head_stickers)
         }
@@ -82,6 +106,7 @@ class PersonnalImformation : AppCompatActivity() {
         // [END auth_sign_out]
     }
 
+//-------------------------註解and備援程式碼-----------------------//
 
 //    private fun getUserProfile() {
 //    // [START get_user_profile]

@@ -28,13 +28,15 @@ class AppHome : AppCompatActivity() {
 
         setContentView(R.layout.apphome_page)
 
+        //預設選擇照片和拍照功能為false
         var choose_photo = intent.getBooleanExtra("choose_photo",false)
         var photograph = intent.getBooleanExtra("photograph",false)
 
+        //如果為true就可以選擇照片
         if (choose_photo == true){
             photochoose_photograph()
         }
-
+        //如果為true就可以拍照
         if (photograph == true){
             photograph()
         }
@@ -55,6 +57,7 @@ class AppHome : AppCompatActivity() {
 
     }
 
+    //照相
     fun photograph(){
         val intent = Intent(MediaStore.ACTION_IMAGE_CAPTURE)
         //用 try-catch 避免例外產生，若產生則顯示 Toast
@@ -68,7 +71,7 @@ class AppHome : AppCompatActivity() {
             ).show()
         }
     }
-
+    //選擇圖片
     fun photochoose_photograph(){
             val intent =
                 Intent(Intent.ACTION_GET_CONTENT).setType("image/*")

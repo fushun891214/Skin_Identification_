@@ -4,6 +4,7 @@ import android.content.ContentValues
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import com.google.android.gms.auth.api.signin.GoogleSignIn
 import com.google.android.gms.auth.api.signin.GoogleSignInClient
@@ -20,12 +21,14 @@ import com.google.firebase.ktx.Firebase
 
 class MainActivity : AppCompatActivity() {
 
-    var user = Users()
+    var users = Users()
 
     //Google登入--
 
     private lateinit var auth: FirebaseAuth
     // [END declare_auth]
+
+    val db = Firebase.firestore
 
     private lateinit var googleSignInClient: GoogleSignInClient
 
@@ -60,10 +63,41 @@ class MainActivity : AppCompatActivity() {
 
             signIn()
 
-            user.name = getUserProfileName(user.name)
-            user.email = getUserProfileEmail(user.email)
-            user.uid = getUserProfileUid(user.uid)
-            user.docid = getDocId(user.docid) //再來跨頁傳值
+            users.name = getUserProfileName(users.name)
+            users.email = getUserProfileEmail(users.email)
+            users.uid = getUserProfileUid(users.uid)
+
+//            var check_email = ""
+            var check : Boolean = true
+            var login : Boolean = false
+
+            db.collection("users")
+                .whereEqualTo("email",users.email)
+                .get()
+                .addOnSuccessListener { result ->
+                    for (document in result) {
+                        Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
+//                        check_email = document.data["email"].toString()
+                        if (document.data["email"].toString() == users.email ){
+                            users.docid = document.data["docid"].toString()
+                            check = false
+                            login = true
+                        }
+                    }
+                }
+                .addOnFailureListener { exception ->
+                    Log.w(ContentValues.TAG, "Error getting documents.", exception)
+                }
+
+            if(login){
+                checkCurrentUser()
+                upload_user()
+                return@setOnClickListener
+            }
+
+            if (check){
+                users.docid = getDocId(users.docid) //再來跨頁傳值
+            }
 
             checkCurrentUser()
 
@@ -187,8 +221,8 @@ class MainActivity : AppCompatActivity() {
     fun upload_user (){
         Firestore.collection("users")
             //若沒有指定 文件的名稱會由系統產生
-            .document(user.docid)
-            .set(user)
+            .document(users.docid)
+            .set(users)
     }
 
 
