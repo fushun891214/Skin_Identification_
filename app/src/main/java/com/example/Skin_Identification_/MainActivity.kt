@@ -1,6 +1,7 @@
 package com.example.Skin_Identification_
 
 import android.content.ContentValues
+import android.content.ContentValues.TAG
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
@@ -28,11 +29,22 @@ class MainActivity : AppCompatActivity() {
     private lateinit var auth: FirebaseAuth
     // [END declare_auth]
 
-    val db = Firebase.firestore
-
     private lateinit var googleSignInClient: GoogleSignInClient
 
+    val db = Firebase.firestore
+
+    companion object {
+        private const val TAG = "GoogleActivity"
+        private const val RC_SIGN_IN = 9001
+    }
     //--Google登入
+
+
+
+    //--Google登入
+
+    private val REQ_ONE_TAP = 2  // Can be any integer unique to the Activity
+    private var showOneTapUI = true
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -40,6 +52,7 @@ class MainActivity : AppCompatActivity() {
         supportActionBar?.hide()
 
         setContentView(R.layout.signup_page)
+
 
         //Google登入--
 
@@ -61,49 +74,80 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<com.google.android.gms.common.SignInButton>(R.id.sign_in_button).setOnClickListener {
 
+            //google登入
             signIn()
+//            checkCurrentUser()
+            //google登入
 
+            //google的帳戶資料
             users.name = getUserProfileName(users.name)
             users.email = getUserProfileEmail(users.email)
             users.uid = getUserProfileUid(users.uid)
+            //google的帳戶資料
 
-//            var check_email = ""
-            var check : Boolean = true
-            var login : Boolean = false
+            var check_uid_correct = ""
 
+            //查詢資料庫內容
             db.collection("users")
-                .whereEqualTo("email",users.email)
+                .whereEqualTo("uid",users.uid)
                 .get()
                 .addOnSuccessListener { result ->
                     for (document in result) {
                         Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
-//                        check_email = document.data["email"].toString()
-                        if (document.data["email"].toString() == users.email ){
-                            users.docid = document.data["docid"].toString()
-                            check = false
-                            login = true
-                        }
+                        users.check_uid_correct = document.data["uid"].toString()
+                        users.check_docid_correct = document.data["docid"].toString()
+//                        Log.d("check",users.check_docid_correct)
+//                        if (document.data["email"].toString() == users.email ){
+//                            users.docid = document.data["docid"].toString()
+//                            check = false
+//                            login = true
+//                        }
                     }
                 }
                 .addOnFailureListener { exception ->
                     Log.w(ContentValues.TAG, "Error getting documents.", exception)
                 }
 
-            if(login){
+            if(users.check_uid_correct == users.uid){
                 checkCurrentUser()
-                upload_user()
                 return@setOnClickListener
             }
-
-            if (check){
-                users.docid = getDocId(users.docid) //再來跨頁傳值
+            else if (users.check_uid_correct != users.uid && users.uid != ""){
+                    users.docid = getDocId(users.docid) //再來跨頁傳值
+                    checkCurrentUser()
+                    upload_user() //上傳user資料到firebase
             }
 
-            checkCurrentUser()
+            Log.d("check",users.check_uid_correct)
 
-            upload_user()
+//            users.docid = getDocId(users.docid) //再來跨頁傳值
+
+//            checkCurrentUser()
+
+//            upload_user()
         }
     }
+
+
+    //     [START onactivityresult]
+    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
+        super.onActivityResult(requestCode, resultCode, data)
+
+        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
+        if (requestCode == RC_SIGN_IN) {
+            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
+            try {
+                // Google Sign In was successful, authenticate with Firebase
+                val account = task.getResult(ApiException::class.java)!!
+                Log.d(TAG, "firebaseAuthWithGoogle:" + account.id)
+                firebaseAuthWithGoogle(account.idToken!!)
+            } catch (e: ApiException) {
+                // Google Sign In failed, update UI appropriately
+                Log.w(TAG, "Google sign in failed", e)
+            }
+        }
+    }
+//     [END onactivityresult]
 
     private var Firestore = FirebaseFirestore.getInstance()
 
@@ -115,7 +159,7 @@ class MainActivity : AppCompatActivity() {
             updateUI()
         //否則就重新登入一次
         } else {
-            signIn()
+//            signIn()
         }
     }
 
@@ -172,26 +216,6 @@ class MainActivity : AppCompatActivity() {
     }
     // [END on_start_check_user]
 
-//     [START onactivityresult]
-    override fun onActivityResult(requestCode: Int, resultCode: Int, data: Intent?) {
-        super.onActivityResult(requestCode, resultCode, data)
-
-        // Result returned from launching the Intent from GoogleSignInApi.getSignInIntent(...);
-        if (requestCode == RC_SIGN_IN) {
-            val task = GoogleSignIn.getSignedInAccountFromIntent(data)
-            try {
-                // Google Sign In was successful, authenticate with Firebase
-                val account = task.getResult(ApiException::class.java)!!
-                Log.d(TAG, "firebaseAuthWithGoogle:" + account.id)
-                firebaseAuthWithGoogle(account.idToken!!)
-            } catch (e: ApiException) {
-                // Google Sign In failed, update UI appropriately
-                Log.w(TAG, "Google sign in failed", e)
-            }
-        }
-    }
-//     [END onactivityresult]
-
 //     [START auth_with_google]
     private fun firebaseAuthWithGoogle(idToken: String) {
         val credential = GoogleAuthProvider.getCredential(idToken, null)
@@ -217,11 +241,13 @@ class MainActivity : AppCompatActivity() {
         return id
     }
 
+
+
     //上傳user的資料
     fun upload_user (){
         Firestore.collection("users")
             //若沒有指定 文件的名稱會由系統產生
-            .document(users.docid)
+            .document(users.uid)
             .set(users)
     }
 
@@ -232,6 +258,7 @@ class MainActivity : AppCompatActivity() {
     private fun signIn() {
         val signInIntent = googleSignInClient.signInIntent
         startActivityForResult(signInIntent, RC_SIGN_IN)
+//        updateUI()
     }
     // [END signin]
 
@@ -243,12 +270,6 @@ class MainActivity : AppCompatActivity() {
         val intent = Intent(this, AppHome::class.java)
         startActivity(intent)
     }
-
-    companion object {
-        private const val TAG = "GoogleActivity"
-        private const val RC_SIGN_IN = 9001
-    }
-    //--Google登入
 }
 
 data class Users(
@@ -259,9 +280,15 @@ data class Users(
     var weight:String = "",
     var height:String = "",
     var born:String = "",
-    var docid:String = ""
+    var docid:String = "",
+    var check_uid_correct:String = "",
+    var check_docid_correct:String = "",
+    var Identification_result : String =""
 )
 
+// 2022/11/27 //
+// 登入時，匯近資料庫前，先檢查uid有沒有重複
+// 如果重複就不要重複儲存資料
 
 //-------------------------註解and備援程式碼-----------------------//
 

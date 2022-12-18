@@ -3,6 +3,7 @@ package com.example.Skin_Identification_
 import android.content.ActivityNotFoundException
 import android.content.ContentValues
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.provider.MediaStore
@@ -28,21 +29,22 @@ class PersonnalImformation : AppCompatActivity() {
 
         val db = Firebase.firestore
 
+        var users = Users()
+
+        users.uid = getUserProfileUid(users.uid)
+
         val head_stickers = findViewById<ImageView>(R.id.imformation_imageView02)
         val user_name = findViewById<TextView>(R.id.user_textView)
-        val textView_sex = findViewById<TextView>(R.id.textView_sex_attribute)
-        val textView_weight = findViewById<TextView>(R.id.textView_weight_attribute)
-        val textView_height = findViewById<TextView>(R.id.textView_height_attribute)
-        val textView_born = findViewById<TextView>(R.id.textView_born_attribute)
 
         db.collection("users")
-            .whereEqualTo("docid","s1JRKbWsMxRLpj02ANMCgLC78Vh1")
+            .whereEqualTo("uid",users.uid)
             .get()
             .addOnSuccessListener { result ->
                 for (document in result) {
-                    Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
+//                    Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
 //                          personnel_information = document.data.toString()
                     findViewById<TextView>(R.id.textView_sex_attribute).text = document.data["sex"].toString()
+//                    Log.d("test123",document.data["sex"].toString())
                     findViewById<TextView>(R.id.textView_weight_attribute).text = document.data["weight"].toString()
                     findViewById<TextView>(R.id.textView_height_attribute).text = document.data["height"].toString()
                     findViewById<TextView>(R.id.textView_born_attribute).text = document.data["born"].toString()
@@ -83,6 +85,11 @@ class PersonnalImformation : AppCompatActivity() {
             val  intent = Intent(this,PersonnalImformationEdit::class.java)
             startActivity(intent)
         }
+
+        findViewById<ImageButton>(R.id.personnal_imageButton4).setOnClickListener{
+            val  intent = Intent(this,IdentifyingHistory::class.java)
+            startActivity(intent)
+        }
     }
 
     fun personnal_sendMessage1(view: View) {
@@ -104,6 +111,18 @@ class PersonnalImformation : AppCompatActivity() {
         // [START auth_sign_out]
         Firebase.auth.signOut()
         // [END auth_sign_out]
+    }
+    //取得user的Uid
+    private fun getUserProfileUid(user_uid:String): String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var uid = user_uid
+
+        user?.let {
+            uid = user.uid.toString()
+        }
+        return uid
+        // [END get_user_profile]
     }
 
 //-------------------------註解and備援程式碼-----------------------//

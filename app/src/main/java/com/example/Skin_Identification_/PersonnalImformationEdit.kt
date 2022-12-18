@@ -3,16 +3,12 @@ package com.example.Skin_Identification_
 import android.content.ContentValues
 import android.content.ContentValues.TAG
 import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import android.widget.Button
-import android.widget.EditText
-import android.widget.ImageButton
-import android.widget.ImageView
-import android.widget.Switch
-import android.widget.TextView
+import android.widget.*
 import com.google.firebase.auth.ktx.auth
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.firebase.firestore.ktx.firestore
@@ -37,6 +33,47 @@ class PersonnalImformationEdit : AppCompatActivity() {
 
         val user = Firebase.auth.currentUser
 
+        val db = Firebase.firestore
+
+        val results = arrayListOf<String>()
+
+        //查詢資料庫內容
+        db.collection("users")
+            .whereEqualTo("uid",users.uid)
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+//                    Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
+//                    users.check_uid_correct = document.data["uid"].toString()
+//                    users.check_docid_correct = document.data["docid"].toString()
+
+//                    Log.d("123", document.data["identification_result"].toString())
+                    results.add(document.data["identification_result"].toString())
+//                    results.add("HELLO")
+
+//                    findViewById<TextView>(R.id.textView_born_attribute).text = document.data["born"].toString()
+
+//                    findViewById<ListView>(R.id.listView).adapter = ArrayAdapter(this,
+//                        android.R.layout.simple_list_item_1, results
+//                    )
+
+//                    Log.d("540","HELLO")
+//                    )
+//                        Log.d("check",users.check_docid_correct)
+//                        if (document.data["email"].toString() == users.email ){
+//                            users.docid = document.data["docid"].toString()
+//                            check = false
+//                            login = true
+//                        }
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.w(ContentValues.TAG, "Error getting documents.", exception)
+            }
+
+        users.Identification_result = results.toString()
+
+
         user?.let {
             val photoUrl = user.photoUrl
             users.uid = user.uid
@@ -48,7 +85,10 @@ class PersonnalImformationEdit : AppCompatActivity() {
             userName.text = users.name
         }
 
-
+        findViewById<ImageButton>(R.id.personnal_imageButton4).setOnClickListener{
+            val  intent = Intent(this,IdentifyingHistory::class.java)
+            startActivity(intent)
+        }
 
         findViewById<TextView>(R.id.imformation_textView03).setOnClickListener {
             signOut()
@@ -139,6 +179,45 @@ class PersonnalImformationEdit : AppCompatActivity() {
 
     private var Firestore = FirebaseFirestore.getInstance()
 
+    //取得user的名字
+    private fun getUserProfileName(user_name:String): String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var name = user_name
+
+        user?.let {
+            name = user.displayName.toString()
+        }
+        return name
+        // [END get_user_profile]
+    }
+
+    //取得user的email
+    private fun getUserProfileEmail(user_email:String):String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var email = user_email
+
+        user?.let {
+            email = user.email.toString()
+        }
+        // [END get_user_profile]
+        return email
+    }
+
+    //取得user的Uid
+    private fun getUserProfileUid(user_uid:String): String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var uid = user_uid
+
+        user?.let {
+            uid = user.uid.toString()
+        }
+        return uid
+        // [END get_user_profile]
+    }
+
 
 
     fun update_user (){
@@ -147,6 +226,11 @@ class PersonnalImformationEdit : AppCompatActivity() {
         users.sex = findViewById<EditText>(R.id.textView_sex_attribute).text.toString()
         users.weight = findViewById<EditText>(R.id.textView_height_attribute).text.toString()
         users.height = findViewById<EditText>(R.id.textView_weight_attribute).text.toString()
+
+        users.name = getUserProfileName(users.name)
+        users.email = getUserProfileEmail(users.email)
+        users.uid = getUserProfileUid(users.uid)
+
 
 //        Log.d("TAGString", "南")
 
@@ -160,7 +244,7 @@ class PersonnalImformationEdit : AppCompatActivity() {
 //        Log.d("TAGString", findViewById<EditText>(R.id.textView_weight_attribute).text.toString())
 
         Firestore.collection("users")
-            .document("d00sEHSt6ABnrLh5NZme")
+            .document(users.uid)
             .set(users)
 
 //        val db = Firebase.firestore
@@ -187,6 +271,7 @@ class PersonnalImformationEdit : AppCompatActivity() {
         val  intent = Intent(this,PersonnalImformation::class.java)
         startActivity(intent)
     }
+
 
     private fun signOut() {
         // [START auth_sign_out]

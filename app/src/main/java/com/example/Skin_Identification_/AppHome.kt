@@ -1,22 +1,26 @@
 package com.example.Skin_Identification_
 
 import android.content.ActivityNotFoundException
+import android.content.ContentValues
 import android.content.Intent
 import android.graphics.Bitmap
 import android.graphics.drawable.BitmapDrawable
-import androidx.appcompat.app.AppCompatActivity
+import android.net.Uri
 import android.os.Bundle
 import android.provider.MediaStore
+import android.util.Log
 import android.view.View
-import android.widget.ArrayAdapter
-import android.widget.ImageView
-import android.widget.ListView
+import android.widget.*
+import androidx.appcompat.app.AppCompatActivity
+import com.example.Skin_Identification_.ml.ModelUnquantMetadata
+import com.google.firebase.auth.ktx.auth
+import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.ktx.firestore
+import com.google.firebase.ktx.Firebase
 import org.tensorflow.lite.support.image.TensorImage
 import java.io.IOException
-import android.widget.*
-
-import com.example.Skin_Identification_.ml.ModelUnquantMetadata
 import kotlin.math.roundToInt
+
 
 class AppHome : AppCompatActivity() {
 
@@ -27,6 +31,7 @@ class AppHome : AppCompatActivity() {
         supportActionBar?.hide()
 
         setContentView(R.layout.apphome_page)
+
 
         //預設選擇照片和拍照功能為false
         var choose_photo = intent.getBooleanExtra("choose_photo",false)
@@ -55,7 +60,14 @@ class AppHome : AppCompatActivity() {
 
         //--辨識功能
 
+        findViewById<ImageButton>(R.id.apphome_imageButton4).setOnClickListener{
+            val  intent = Intent(this,IdentifyingHistory::class.java)
+            startActivity(intent)
+        }
+
     }
+
+    private var Firestore = FirebaseFirestore.getInstance()
 
     //照相
     fun photograph(){
@@ -93,6 +105,12 @@ class AppHome : AppCompatActivity() {
 
     fun apphome_sendMessage6(view: View) {
         val  intent = Intent(this,PersonnalImformation::class.java)
+        startActivity(intent)
+    }
+
+    fun apphome_sendMessage7(view: View){
+        val uri: Uri = Uri.parse("https://line.me/R/ti/p/~@847bpzej") // missing 'http://' will cause crashed
+        val intent = Intent(Intent.ACTION_VIEW, uri)
         startActivity(intent)
     }
 
@@ -146,16 +164,133 @@ class AppHome : AppCompatActivity() {
                 result.add("皮膚是 $label 的可能性為 $score %")
             }
 
-            //將結果顯示於 ListView
+            updataresult(result.toString())
+
             val listView = findViewById<ListView>(R.id.listView)
             listView.adapter = ArrayAdapter(this,
-                android.R.layout.simple_list_item_1,
-                result
+                android.R.layout.simple_list_item_1, result
             )
+
         } catch (e: IOException) {
             e.printStackTrace()
         }
     }
 
+    //取得user的名字
+    private fun getUserProfileName(user_name:String): String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var name = user_name
+
+        user?.let {
+            name = user.displayName.toString()
+        }
+        return name
+        // [END get_user_profile]
+    }
+
+    //取得user的email
+    private fun getUserProfileEmail(user_email:String):String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var email = user_email
+
+        user?.let {
+            email = user.email.toString()
+        }
+        // [END get_user_profile]
+        return email
+    }
+
+    //取得user的Uid
+    private fun getUserProfileUid(user_uid:String): String {
+        // [START get_user_profile]
+        val user = Firebase.auth.currentUser
+        var uid = user_uid
+
+        user?.let {
+            uid = user.uid.toString()
+        }
+        return uid
+        // [END get_user_profile]
+    }
+
+//    fun getData(sex:String,weight:String,height:String,born:String){
+//
+//        var users = Users()
+//
+//        users.name = getUserProfileName(users.name)
+//        users.email = getUserProfileEmail(users.email)
+//        users.uid = getUserProfileUid(users.uid)
+//
+//        val db = Firebase.firestore
+//
+//        db.collection("users")
+//            .whereEqualTo("uid",users.uid)
+//            .get()
+//            .addOnSuccessListener { result ->
+//                for (document in result) {
+////                    Log.d(ContentValues.TAG, "${document.id} => ${document.data}")
+////                          personnel_information = document.data.toString()
+////                    findViewById<TextView>(R.id.textView_sex_attribute).text = document.data["sex"].toString()
+////                    Log.d("test123",document.data["sex"].toString())
+////                    findViewById<TextView>(R.id.textView_weight_attribute).text = document.data["weight"].toString()
+////                    findViewById<TextView>(R.id.textView_height_attribute).text = document.data["height"].toString()
+////                    findViewById<TextView>(R.id.textView_born_attribute).text = document.data["born"].toString()
+//
+//                    users.sex = document.data["sex"].toString()
+//                    users.weight = document.data["weight"].toString()
+//                    users.height = document.data["height"].toString()
+//                    users.born = document.data["born"].toString()
+//
+////                   Log.d("514",users.sex)
+//                }
+//            }
+//            .addOnFailureListener { exception ->
+//                Log.w(ContentValues.TAG, "Error getting documents.", exception)
+//            }
+//
+//        return getData(users.sex,users.weight,users.height,users.born)
+//
+//    }
+
     //--辨識功能
+
+    fun updataresult(result:String){
+
+        var users = Users()
+
+        users.name = getUserProfileName(users.name)
+        users.email = getUserProfileEmail(users.email)
+        users.uid = getUserProfileUid(users.uid)
+
+        val db = Firebase.firestore
+
+        db.collection("users")
+            .whereEqualTo("uid",users.uid)
+            .get()
+            .addOnSuccessListener { result ->
+                for (document in result) {
+                    users.sex = document.data["sex"].toString()
+                    users.weight = document.data["weight"].toString()
+                    users.height = document.data["height"].toString()
+                    users.born = document.data["born"].toString()
+                }
+            }
+            .addOnFailureListener { exception ->
+                Log.w(ContentValues.TAG, "Error getting documents.", exception)
+            }
+
+        users.Identification_result = result
+
+
+//        for (i in result){
+//            users.Identification_result = arrayListOf(i.toString()).toString()
+//        }
+
+
+        Firestore.collection("users")
+            .document(users.uid)
+            .set(users)
+    }
 }

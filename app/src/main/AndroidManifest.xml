@@ -12,6 +12,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.UI_Design">
         <activity
+            android:name=".IdentifyingHistory"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".PersonnalImformationEdit"
             android:exported="false">
             <meta-data
