@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.google.firebase:firebase-firestore-ktx:24.3.1@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/ca89e6f5f9553a851c3893fde1110927/transformed/firebase-firestore-ktx-24.3.1/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/transforms-3/ca89e6f5f9553a851c3893fde1110927/transformed/firebase-firestore-ktx-24.3.1/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/24.3.1/173b158010cae7afb0be966c73f86ebbd0678083/firebase-firestore-ktx-24.3.1-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/AppData/Local/Android/Sdk/caches/modules-2/files-2.1/com.google.firebase/firebase-firestore-ktx/24.3.1/1ea7158523469e701b042b5c95ce227df61efb85/firebase-firestore-ktx-24.3.1-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

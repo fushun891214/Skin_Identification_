@@ -1,0 +1,680 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c610549edb1a1aa9f7790663cd91b780\transformed\viewbinding-7.3.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:2:1-17:12
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:2:1-17:12
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\394d414c5922924dc37eda0f5bb12a4d\transformed\core-ktx-1.7.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\76095a26008105edf1d0c8f1e049f422\transformed\material-1.6.1\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdccb26dd86a9d5ca0457706d67f1ac\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b9c045a0cfaa204f5802f1399c92eb48\transformed\appcompat-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\085b4bc523f00a54762b60037a6787b7\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\bfb1a1c2167b223587e79a19619e00a4\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:17:1-73:12
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:2:1-26:12
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:2:1-21:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4141763005b976068ca73a5e97788d5a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c952fa307ae76d2579a7feeb05c89114\transformed\firebase-appcheck-interop-16.0.2\AndroidManifest.xml:15:1-26:12
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:2:1-24:12
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:15:1-40:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\6b93a07c3b15a8c694489ceee5233a3f\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdef707682e4d14fd0e4f86b16778d8\transformed\play-services-auth-base-18.0.1\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\617a27ad6ce119237f16d37b11ae9733\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c4b49d6a9b983e903c7f5e596975189b\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:16:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\84b6295f3c13b181d455bfbfb664437a\transformed\viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\31e7b434edc8131838213739bfead1f1\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3f23c768ddc0db1424ac47cc21a58c80\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:17:1-46:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0aa8b58850800be7fccde36f1a8a3e45\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:17:1-27:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\112070fad2ed34fed219e80e3668a59b\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\aac57ab64445482d35acbf512f676a4b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\52eb36a94a7d33040ed645c5c374d469\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e13dd2e3602eee43c4ff1daf1ae95a87\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3ca391e35d53ba0dad77925851674581\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\284d52aac029fd971430eae05c53db90\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\eb138834c5978a151a985ec15dc88ae8\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b3a98d4627c5b53ffd66ff1826ac84bd\transformed\activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ddea012d98d7467462a0c693f1ef8cf4\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\34f36c7cace9c7975e663da9fc17ab5c\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\167511dc0b37c5180f42bad4d22f60a0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8ca87280a33ae5341255965818cbf51d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\70e7af9aef64e77f3d3f6bed711047ed\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5cd9341f035d39405d92cfac49f97d0f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\47e23da706806e2f25cec56dd976bd0c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c3de055a1da23e8bcace3a99f3d7c300\transformed\browser-1.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b31889a99aaa529aaf219d6e9aa5cede\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3adb7d80a65d38e4100545c75ce3a6ae\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\dc7b1efc2940836d1e7c326265168f98\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.core:core:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\293b5745b37de46d9a790da32d341fd2\transformed\core-1.7.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5e73a704ae01ece33a06fa73f6b6e4bf\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da6ef5adfdb32b307c0de92fb633a702\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d6de5f63a9f42bf47741e068a61e0e9b\transformed\savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\f50bda14ad0dfcf750a9d217a5668bad\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\718993594397b339a428dbf4dba59d4d\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\40d6f9ce612d6d592a20dcd73b9c45a5\transformed\firebase-components-17.0.1\AndroidManifest.xml:15:1-23:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\68c2b88c7c61127a34762b8d342f7d9e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e7c66a6763813ae1484e244b42834159\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:17:1-37:12
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\80424cc8146f29fcce5bbef5d2d9e21f\transformed\tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\847f1548e6213904fd07f241e16897fb\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\33be4419e4e86e0e05e32c1fb51abbb3\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\600f9cf1dad50e8bf0bea143fa2298de\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4e77da2f4992eda8f3f5d77a43a98a48\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\baa0398d7775ccf31bbf5fb040b03b66\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0f2d26318d83f5775ac3af8be631d82d\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\67db8c4fe5b5d96c013b519f6e3ee3b7\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0a840205ca369fbf0ed96dc63203cf30\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\860d89db49170e3915881475e6b98cd6\transformed\grpc-android-1.48.1\AndroidManifest.xml:2:1-11:12
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8481d6c5484e07db26a2ddab300d3215\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\beb8701aee8b62f984812d1b255d2ab5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:2:1-11:12
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+	package
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:1-48:12
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:5:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:14:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:5:22-64
+application
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:7:5-46:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:22:5-38:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:7:5-15:19
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\76095a26008105edf1d0c8f1e049f422\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\76095a26008105edf1d0c8f1e049f422\transformed\material-1.6.1\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdccb26dd86a9d5ca0457706d67f1ac\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdccb26dd86a9d5ca0457706d67f1ac\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\bfb1a1c2167b223587e79a19619e00a4\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\bfb1a1c2167b223587e79a19619e00a4\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:26:5-71:19
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:16:5-24:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:11:5-19:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4141763005b976068ca73a5e97788d5a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4141763005b976068ca73a5e97788d5a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c952fa307ae76d2579a7feeb05c89114\transformed\firebase-appcheck-interop-16.0.2\AndroidManifest.xml:24:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c952fa307ae76d2579a7feeb05c89114\transformed\firebase-appcheck-interop-16.0.2\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:27:5-35:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:14:5-22:19
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:25:5-38:19
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\617a27ad6ce119237f16d37b11ae9733\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\617a27ad6ce119237f16d37b11ae9733\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3f23c768ddc0db1424ac47cc21a58c80\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3f23c768ddc0db1424ac47cc21a58c80\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:28:5-44:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0aa8b58850800be7fccde36f1a8a3e45\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0aa8b58850800be7fccde36f1a8a3e45\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:29:5-30:19
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:25:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\112070fad2ed34fed219e80e3668a59b\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\112070fad2ed34fed219e80e3668a59b\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\aac57ab64445482d35acbf512f676a4b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\aac57ab64445482d35acbf512f676a4b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\52eb36a94a7d33040ed645c5c374d469\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\52eb36a94a7d33040ed645c5c374d469\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.core:core:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\293b5745b37de46d9a790da32d341fd2\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\293b5745b37de46d9a790da32d341fd2\transformed\core-1.7.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e7c66a6763813ae1484e244b42834159\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e7c66a6763813ae1484e244b42834159\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:25:5-35:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:25:5-31:19
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8481d6c5484e07db26a2ddab300d3215\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8481d6c5484e07db26a2ddab300d3215\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:10:5-20
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\293b5745b37de46d9a790da32d341fd2\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:11:9-47
+	android:icon
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:9:9-42
+	android:allowBackup
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:13:9-47
+activity#com.example.Skin_Identification_.IdentifyingHistory
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:14:9-20:20
+	android:exported
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:15:13-47
+meta-data#android.app.lib_name
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:17:13-19:36
+	android:value
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:19:17-33
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:18:17-52
+activity#com.example.Skin_Identification_.PersonnalImformationEdit
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:21:9-27:20
+	android:exported
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:22:13-53
+activity#com.example.Skin_Identification_.PersonnalImformation
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:28:9-30:40
+	android:exported
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:29:13-49
+activity#com.example.Skin_Identification_.AppHome
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:31:9-33:40
+	android:exported
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:33:13-37
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:32:13-36
+activity#com.example.Skin_Identification_.Login
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:34:9-36:40
+	android:exported
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:35:13-34
+activity#com.example.Skin_Identification_.MainActivity
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:37:9-45:20
+	android:exported
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:39:13-36
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:38:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:40:13-44:29
+action#android.intent.action.MAIN
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:41:17-69
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:41:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:43:17-77
+	android:name
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml:43:27-74
+uses-sdk
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c610549edb1a1aa9f7790663cd91b780\transformed\viewbinding-7.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.databinding:viewbinding:7.3.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c610549edb1a1aa9f7790663cd91b780\transformed\viewbinding-7.3.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\394d414c5922924dc37eda0f5bb12a4d\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\394d414c5922924dc37eda0f5bb12a4d\transformed\core-ktx-1.7.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\76095a26008105edf1d0c8f1e049f422\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.6.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\76095a26008105edf1d0c8f1e049f422\transformed\material-1.6.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdccb26dd86a9d5ca0457706d67f1ac\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdccb26dd86a9d5ca0457706d67f1ac\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b9c045a0cfaa204f5802f1399c92eb48\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.4.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b9c045a0cfaa204f5802f1399c92eb48\transformed\appcompat-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\085b4bc523f00a54762b60037a6787b7\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [org.tensorflow:tensorflow-lite-support:0.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\085b4bc523f00a54762b60037a6787b7\transformed\tensorflow-lite-support-0.1.0\AndroidManifest.xml:4:3-71
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\bfb1a1c2167b223587e79a19619e00a4\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\bfb1a1c2167b223587e79a19619e00a4\transformed\firebase-analytics-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4141763005b976068ca73a5e97788d5a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4141763005b976068ca73a5e97788d5a\transformed\firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c952fa307ae76d2579a7feeb05c89114\transformed\firebase-appcheck-interop-16.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:16.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c952fa307ae76d2579a7feeb05c89114\transformed\firebase-appcheck-interop-16.0.2\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\6b93a07c3b15a8c694489ceee5233a3f\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\6b93a07c3b15a8c694489ceee5233a3f\transformed\play-services-auth-api-phone-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdef707682e4d14fd0e4f86b16778d8\transformed\play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2bdef707682e4d14fd0e4f86b16778d8\transformed\play-services-auth-base-18.0.1\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\617a27ad6ce119237f16d37b11ae9733\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-safetynet:17.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\617a27ad6ce119237f16d37b11ae9733\transformed\play-services-safetynet-17.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c4b49d6a9b983e903c7f5e596975189b\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c4b49d6a9b983e903c7f5e596975189b\transformed\firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:18:5-43
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\84b6295f3c13b181d455bfbfb664437a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\84b6295f3c13b181d455bfbfb664437a\transformed\viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\31e7b434edc8131838213739bfead1f1\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-installations-interop:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\31e7b434edc8131838213739bfead1f1\transformed\firebase-installations-interop-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3f23c768ddc0db1424ac47cc21a58c80\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3f23c768ddc0db1424ac47cc21a58c80\transformed\play-services-tasks-18.0.1\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0aa8b58850800be7fccde36f1a8a3e45\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0aa8b58850800be7fccde36f1a8a3e45\transformed\play-services-measurement-sdk-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\112070fad2ed34fed219e80e3668a59b\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\112070fad2ed34fed219e80e3668a59b\transformed\play-services-measurement-base-21.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\aac57ab64445482d35acbf512f676a4b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:17.0.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\aac57ab64445482d35acbf512f676a4b\transformed\play-services-stats-17.0.2\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\52eb36a94a7d33040ed645c5c374d469\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:19.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\52eb36a94a7d33040ed645c5c374d469\transformed\firebase-measurement-connector-19.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e13dd2e3602eee43c4ff1daf1ae95a87\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e13dd2e3602eee43c4ff1daf1ae95a87\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3ca391e35d53ba0dad77925851674581\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3ca391e35d53ba0dad77925851674581\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\284d52aac029fd971430eae05c53db90\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\284d52aac029fd971430eae05c53db90\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\eb138834c5978a151a985ec15dc88ae8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\eb138834c5978a151a985ec15dc88ae8\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b3a98d4627c5b53ffd66ff1826ac84bd\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b3a98d4627c5b53ffd66ff1826ac84bd\transformed\activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ddea012d98d7467462a0c693f1ef8cf4\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.4.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ddea012d98d7467462a0c693f1ef8cf4\transformed\appcompat-resources-1.4.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\34f36c7cace9c7975e663da9fc17ab5c\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2-views-helper:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\34f36c7cace9c7975e663da9fc17ab5c\transformed\emoji2-views-helper-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\167511dc0b37c5180f42bad4d22f60a0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\167511dc0b37c5180f42bad4d22f60a0\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8ca87280a33ae5341255965818cbf51d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8ca87280a33ae5341255965818cbf51d\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\70e7af9aef64e77f3d3f6bed711047ed\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\70e7af9aef64e77f3d3f6bed711047ed\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5cd9341f035d39405d92cfac49f97d0f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5cd9341f035d39405d92cfac49f97d0f\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\47e23da706806e2f25cec56dd976bd0c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\47e23da706806e2f25cec56dd976bd0c\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c3de055a1da23e8bcace3a99f3d7c300\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.browser:browser:1.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c3de055a1da23e8bcace3a99f3d7c300\transformed\browser-1.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b31889a99aaa529aaf219d6e9aa5cede\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\b31889a99aaa529aaf219d6e9aa5cede\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3adb7d80a65d38e4100545c75ce3a6ae\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\3adb7d80a65d38e4100545c75ce3a6ae\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\dc7b1efc2940836d1e7c326265168f98\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\dc7b1efc2940836d1e7c326265168f98\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\293b5745b37de46d9a790da32d341fd2\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.7.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\293b5745b37de46d9a790da32d341fd2\transformed\core-1.7.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5e73a704ae01ece33a06fa73f6b6e4bf\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5e73a704ae01ece33a06fa73f6b6e4bf\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da6ef5adfdb32b307c0de92fb633a702\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da6ef5adfdb32b307c0de92fb633a702\transformed\lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d6de5f63a9f42bf47741e068a61e0e9b\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d6de5f63a9f42bf47741e068a61e0e9b\transformed\savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\f50bda14ad0dfcf750a9d217a5668bad\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\f50bda14ad0dfcf750a9d217a5668bad\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\718993594397b339a428dbf4dba59d4d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\718993594397b339a428dbf4dba59d4d\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\40d6f9ce612d6d592a20dcd73b9c45a5\transformed\firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-components:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\40d6f9ce612d6d592a20dcd73b9c45a5\transformed\firebase-components-17.0.1\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\68c2b88c7c61127a34762b8d342f7d9e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\68c2b88c7c61127a34762b8d342f7d9e\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e7c66a6763813ae1484e244b42834159\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\e7c66a6763813ae1484e244b42834159\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\80424cc8146f29fcce5bbef5d2d9e21f\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\80424cc8146f29fcce5bbef5d2d9e21f\transformed\tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\847f1548e6213904fd07f241e16897fb\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\847f1548e6213904fd07f241e16897fb\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\33be4419e4e86e0e05e32c1fb51abbb3\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\33be4419e4e86e0e05e32c1fb51abbb3\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\600f9cf1dad50e8bf0bea143fa2298de\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\600f9cf1dad50e8bf0bea143fa2298de\transformed\lifecycle-runtime-2.4.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4e77da2f4992eda8f3f5d77a43a98a48\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4e77da2f4992eda8f3f5d77a43a98a48\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\baa0398d7775ccf31bbf5fb040b03b66\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\baa0398d7775ccf31bbf5fb040b03b66\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0f2d26318d83f5775ac3af8be631d82d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0f2d26318d83f5775ac3af8be631d82d\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\67db8c4fe5b5d96c013b519f6e3ee3b7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\67db8c4fe5b5d96c013b519f6e3ee3b7\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0a840205ca369fbf0ed96dc63203cf30\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\0a840205ca369fbf0ed96dc63203cf30\transformed\annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\860d89db49170e3915881475e6b98cd6\transformed\grpc-android-1.48.1\AndroidManifest.xml:5:5-7:41
+MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\860d89db49170e3915881475e6b98cd6\transformed\grpc-android-1.48.1\AndroidManifest.xml:5:5-7:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8481d6c5484e07db26a2ddab300d3215\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [org.tensorflow:tensorflow-lite:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\8481d6c5484e07db26a2ddab300d3215\transformed\tensorflow-lite-2.4.0\AndroidManifest.xml:7:5-8:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\beb8701aee8b62f984812d1b255d2ab5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\beb8701aee8b62f984812d1b255d2ab5\transformed\protolite-well-known-types-18.0.0\AndroidManifest.xml:7:5-9:41
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		ADDED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		MERGED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+		INJECTED from D:\SCU_TEST_PROJECT\Skin_Identification_\app\src\main\AndroidManifest.xml
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:8:9-14:19
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:64:9-70:19
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:17:9-23:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:12:9-18:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:28:9-34:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:15:9-21:19
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:33:9-37:35
+MERGED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:33:9-37:35
+	android:exported
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:14:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:37:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:35:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:13:13-84
+meta-data#com.google.firebase.components:com.google.firebase.firestore.ktx.FirebaseFirestoreKtxRegistrar
+ADDED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore-ktx:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ca89e6f5f9553a851c3893fde1110927\transformed\firebase-firestore-ktx-24.3.1\AndroidManifest.xml:16:17-126
+meta-data#com.google.firebase.components:com.google.firebase.auth.ktx.FirebaseAuthKtxRegistrar
+ADDED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth-ktx:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ac58c8cf9a3a232c9569c11ce030c6ec\transformed\firebase-auth-ktx-21.0.7\AndroidManifest.xml:12:17-116
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:33:9-37:51
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:35:13-36
+	android:visibleToInstantApps
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:37:13-48
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:20.2.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\1ce62817831279c0163e7e736cf1a741\transformed\play-services-auth-20.2.0\AndroidManifest.xml:34:13-89
+meta-data#com.google.firebase.components:com.google.firebase.analytics.ktx.FirebaseAnalyticsKtxRegistrar
+ADDED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:11:13-13:85
+	android:value
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:13:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics-ktx:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\ab1305c8f0a281e9402ff82bfbabc944\transformed\firebase-analytics-ktx-21.1.0\AndroidManifest.xml:12:17-126
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:24:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:13:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:10:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:24:5-79
+MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\860d89db49170e3915881475e6b98cd6\transformed\grpc-android-1.48.1\AndroidManifest.xml:9:5-79
+MERGED from [io.grpc:grpc-android:1.48.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\860d89db49170e3915881475e6b98cd6\transformed\grpc-android-1.48.1\AndroidManifest.xml:9:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:24:22-76
+activity#com.google.firebase.auth.internal.GenericIdpActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:27:9-44:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:29:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:31:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:30:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:32:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:28:13-80
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:genericidp
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:33:13-43:29
+action#android.intent.action.VIEW
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:17-69
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:34:25-66
+category#android.intent.category.DEFAULT
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:17-76
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:36:27-73
+category#android.intent.category.BROWSABLE
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:17-78
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:37:27-75
+data
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:39:17-42:51
+	android:path
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:41:21-37
+	android:host
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:40:21-49
+	android:scheme
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:42:21-48
+activity#com.google.firebase.auth.internal.RecaptchaActivity
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:45:9-62:20
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:47:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:49:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:48:13-36
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:50:13-72
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:46:13-79
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:host:firebase.auth+data:path:/+data:scheme:recaptcha
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:51:13-61:29
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:67:13-69:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:69:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:21.0.7] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\a20eddeea6711f78a5e7170a2fc8d52f\transformed\firebase-auth-21.0.7\AndroidManifest.xml:68:17-109
+meta-data#com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar
+ADDED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:20:13-22:85
+	android:value
+		ADDED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-firestore:24.3.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\51ddd64ea6d11c7437ce802733079ee0\transformed\firebase-firestore-24.3.1\AndroidManifest.xml:21:17-111
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:15:13-17:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:17:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\2b7f1a4d5b89381a87ce91dc239b1f23\transformed\firebase-common-ktx-20.1.2\AndroidManifest.xml:16:17-113
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:24:22-65
+uses-permission#com.google.android.gms.permission.AD_ID
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:27:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-ads-identifier:18.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\39186f87315cfd2ccac21c8139789de3\transformed\play-services-ads-identifier-18.0.0\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\df7f8c8651909af5501305a3122f6a88\transformed\play-services-measurement-sdk-api-21.1.0\AndroidManifest.xml:26:5-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\da9beae30323ba3c288c08b185c46959\transformed\play-services-measurement-api-21.1.0\AndroidManifest.xml:32:17-139
+meta-data#com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar
+ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+	android:value
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-installations:17.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21c3f9c5722f223286389f6b4830af0e\transformed\firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:26:9-31:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:28:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:30:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:29:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:20.1.2] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\c6926b64a90138927369b2d6beec84fa\transformed\firebase-common-20.1.2\AndroidManifest.xml:27:13-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.0.1] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\d00381f2a2db82af1558c19e68d73dc5\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\4a21b0c1c420c52f92297e634ba51b5d\transformed\play-services-measurement-impl-21.1.0\AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:30:13-85
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:35:9-38:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:36:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:39:9-43:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:41:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:42:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:43:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:21.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\5501d916cb51f7351b75df891cbd5b5b\transformed\play-services-measurement-21.1.0\AndroidManifest.xml:40:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.1.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\028014a35cbaf80e3cd33256e3c8293b\transformed\play-services-basement-18.1.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:26:9-34:20
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\21e06187378dadd56318f9c7e89e930c\transformed\startup-runtime-1.0.0\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:30:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:28:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:27:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.0.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\90c6b767582ca3f042f322f34bd8af05\transformed\emoji2-1.0.0\AndroidManifest.xml:32:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\fushu\AppData\Local\Android\Sdk\caches\transforms-3\193047aafbac48ce3c73360417b0092d\transformed\lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
